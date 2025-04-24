@@ -1,0 +1,28 @@
+{
+  "name": "pruebaeslint",
+  "version": "1.0.0",
+  "description": "Prueba de como funciona ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlythibert/PruebaESLint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlythibert/PruebaESLint/issues"
+  },
+  "homepage": "https://github.com/charlythibert/PruebaESLint#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "typescript-eslint": "^8.31.0"
+  }
+}
